@@ -1,0 +1,110 @@
+/* Reset de estilo básico */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Estilos para o contêiner do formulário */
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilos para o título */
+.form-container h1 {
+    font-size: 2em;
+    color: #004080;
+    font-weight: 700;
+    margin-bottom: 20px; 
+}
+
+/* Estilos do formulário */
+form {
+    text-align: left; 
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+form .newsletter-label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+/* Estilos para os campos de entrada e textarea */
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Estilos do botão "Enviar Reserva" */
+form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    background-color: #004080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #003366;
+}
+
+/* Estilos do botão "Consultar Reservas" */
+.btn-consultar {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    background-color: #f39c12; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+/* Efeito de hover para o botão "Consultar Reservas" */
+.btn-consultar:hover {
+    background-color: #e67e22;
+}
